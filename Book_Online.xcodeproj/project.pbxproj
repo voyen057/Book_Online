@@ -18,6 +18,11 @@
 		66624F9428342377005E9347 /* Book_OnlineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66624F9328342377005E9347 /* Book_OnlineUITests.swift */; };
 		66624FAB2834285E005E9347 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66624FA92834285E005E9347 /* CategoryTableViewCell.swift */; };
 		66624FAC2834285E005E9347 /* CategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66624FAA2834285E005E9347 /* CategoryTableViewCell.xib */; };
+		66624FAE283438A7005E9347 /* SearchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66624FAD283438A7005E9347 /* SearchScreenViewController.swift */; };
+		66624FB028343AA7005E9347 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66624FAF28343AA7005E9347 /* HomeViewController.swift */; };
+		66624FB328343F5D005E9347 /* SeemoreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66624FB128343F5D005E9347 /* SeemoreCollectionViewCell.swift */; };
+		66624FB428343F5D005E9347 /* SeemoreCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66624FB228343F5D005E9347 /* SeemoreCollectionViewCell.xib */; };
+		66624FB628344381005E9347 /* SeemoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66624FB528344381005E9347 /* SeemoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +60,11 @@
 		66624F9528342377005E9347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66624FA92834285E005E9347 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
 		66624FAA2834285E005E9347 /* CategoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryTableViewCell.xib; sourceTree = "<group>"; };
+		66624FAD283438A7005E9347 /* SearchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScreenViewController.swift; sourceTree = "<group>"; };
+		66624FAF28343AA7005E9347 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		66624FB128343F5D005E9347 /* SeemoreCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeemoreCollectionViewCell.swift; sourceTree = "<group>"; };
+		66624FB228343F5D005E9347 /* SeemoreCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeemoreCollectionViewCell.xib; sourceTree = "<group>"; };
+		66624FB528344381005E9347 /* SeemoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeemoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +125,11 @@
 				66624F7728342373005E9347 /* Book_Online.xcdatamodeld */,
 				66624FA92834285E005E9347 /* CategoryTableViewCell.swift */,
 				66624FAA2834285E005E9347 /* CategoryTableViewCell.xib */,
+				66624FAD283438A7005E9347 /* SearchScreenViewController.swift */,
+				66624FAF28343AA7005E9347 /* HomeViewController.swift */,
+				66624FB128343F5D005E9347 /* SeemoreCollectionViewCell.swift */,
+				66624FB228343F5D005E9347 /* SeemoreCollectionViewCell.xib */,
+				66624FB528344381005E9347 /* SeemoreViewController.swift */,
 			);
 			path = Book_Online;
 			sourceTree = "<group>";
@@ -242,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66624F7E28342377005E9347 /* LaunchScreen.storyboard in Resources */,
+				66624FB428343F5D005E9347 /* SeemoreCollectionViewCell.xib in Resources */,
 				66624F7B28342377005E9347 /* Assets.xcassets in Resources */,
 				66624F7628342373005E9347 /* Main.storyboard in Resources */,
 				66624FAC2834285E005E9347 /* CategoryTableViewCell.xib in Resources */,
@@ -270,10 +286,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				66624FAB2834285E005E9347 /* CategoryTableViewCell.swift in Sources */,
+				66624FB328343F5D005E9347 /* SeemoreCollectionViewCell.swift in Sources */,
 				66624F7328342373005E9347 /* ViewController.swift in Sources */,
 				66624F6F28342373005E9347 /* AppDelegate.swift in Sources */,
 				66624F7128342373005E9347 /* SceneDelegate.swift in Sources */,
+				66624FAE283438A7005E9347 /* SearchScreenViewController.swift in Sources */,
+				66624FB028343AA7005E9347 /* HomeViewController.swift in Sources */,
 				66624F7928342373005E9347 /* Book_Online.xcdatamodeld in Sources */,
+				66624FB628344381005E9347 /* SeemoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
