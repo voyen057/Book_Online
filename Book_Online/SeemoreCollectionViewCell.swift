@@ -10,6 +10,8 @@ import UIKit
 
 class SeemoreCollectionViewCell: UICollectionViewCell {
 
+    @IBOutlet weak var img: UIImageView!
+    @IBOutlet weak var lblName: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

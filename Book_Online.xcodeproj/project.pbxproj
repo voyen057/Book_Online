@@ -23,6 +23,7 @@
 		66624FB328343F5D005E9347 /* SeemoreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66624FB128343F5D005E9347 /* SeemoreCollectionViewCell.swift */; };
 		66624FB428343F5D005E9347 /* SeemoreCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66624FB228343F5D005E9347 /* SeemoreCollectionViewCell.xib */; };
 		66624FB628344381005E9347 /* SeemoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66624FB528344381005E9347 /* SeemoreViewController.swift */; };
+		66624FB928344BFA005E9347 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66624FB828344BFA005E9347 /* Book.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		66624FB128343F5D005E9347 /* SeemoreCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeemoreCollectionViewCell.swift; sourceTree = "<group>"; };
 		66624FB228343F5D005E9347 /* SeemoreCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeemoreCollectionViewCell.xib; sourceTree = "<group>"; };
 		66624FB528344381005E9347 /* SeemoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeemoreViewController.swift; sourceTree = "<group>"; };
+		66624FB828344BFA005E9347 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		66624F6D28342373005E9347 /* Book_Online */ = {
 			isa = PBXGroup;
 			children = (
+				66624FB728344BC6005E9347 /* Models */,
 				66624F6E28342373005E9347 /* AppDelegate.swift */,
 				66624F7028342373005E9347 /* SceneDelegate.swift */,
 				66624F7228342373005E9347 /* ViewController.swift */,
@@ -150,6 +153,14 @@
 				66624F9528342377005E9347 /* Info.plist */,
 			);
 			path = Book_OnlineUITests;
+			sourceTree = "<group>";
+		};
+		66624FB728344BC6005E9347 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				66624FB828344BFA005E9347 /* Book.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,6 +304,7 @@
 				66624FAE283438A7005E9347 /* SearchScreenViewController.swift in Sources */,
 				66624FB028343AA7005E9347 /* HomeViewController.swift in Sources */,
 				66624F7928342373005E9347 /* Book_Online.xcdatamodeld in Sources */,
+				66624FB928344BFA005E9347 /* Book.swift in Sources */,
 				66624FB628344381005E9347 /* SeemoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
